@@ -72,4 +72,4 @@ def display_image_for_text(query_text, image_folder, image_embeddings, labels, t
                 return  # Berhenti setelah menampilkan top_k gambar
 
 # Menguji dengan teks "kucing", menampilkan 100 gambar secara acak
-display_image_for_text("kucing", "data/gambar", image_embeddings, labels, top_k=100)
+display_image_for_text("anjing", "data/gambar", image_embeddings, labels, top_k=100)
